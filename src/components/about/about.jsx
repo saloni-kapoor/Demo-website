@@ -8,7 +8,7 @@ export default function About() {
           <div className="md:5/12 lg:w-5/12">
             <img
               className="sm:w-96 w-48"
-              src="src/images/about.jpg"
+              src="public/images/about.jpg"
               alt="image2"
             />
           </div>
