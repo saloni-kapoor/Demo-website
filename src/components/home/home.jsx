@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
                     <img
                         className="sm:w-96 w-48"
-                        src="public/images/image.png"
+                        src={`${import.meta.env.BASE_URL}images/image.png`}
                         alt="image2"
                     />
                 </div>
@@ -43,7 +43,7 @@ export default function Home() {
             <div className="grid  place-items-center sm:mt-20">
                 <img
                     className="sm:w-96 w-48"
-                    src="public/images/image1.png"
+                    src={`${import.meta.env.BASE_URL}images/image1.png`}
                     alt="image2"
                 />
             </div>
