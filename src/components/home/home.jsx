@@ -48,6 +48,7 @@ export default function Home() {
                     alt="image2"
                     fetchPriority="high"
                 />
+            </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
         </div>
