@@ -33,9 +33,10 @@ export default function Home() {
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
                     <img
-                        className="sm:w-96 w-48"
-                        src={`${import.meta.env.BASE_URL}images/image.png`}
-                        alt="image2"
+                         className="sm:w-96 w-48"
+                         src={`${import.meta.env.BASE_URL}images/image.png`}
+                         alt="image2"
+                         fetchPriority="high"
                     />
                 </div>
             </aside>
@@ -45,8 +46,8 @@ export default function Home() {
                     className="sm:w-96 w-48"
                     src={`${import.meta.env.BASE_URL}images/image1.png`}
                     alt="image2"
+                    fetchPriority="high"
                 />
-            </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
         </div>
